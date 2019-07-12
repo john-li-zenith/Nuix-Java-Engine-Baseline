@@ -36,6 +36,7 @@ public class EngineWrapper {
 	
 	private File nuixBaseDirectory = null;
 	private Engine engine = null;
+	private String nuixCloudLicenseServer = null; 
 	
 	// We will use this while iterating licenses to determine which one to acquire.
 	// By default this filter accepts any license.
